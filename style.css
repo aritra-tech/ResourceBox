@@ -58,8 +58,8 @@ a{
 .bd-grid{
     max-width: 1024px;
     display: grid;
-    margin-left: var(--mb-4);
-    margin-right: var(--mb-6);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
 }
 
 .l-header{
@@ -96,6 +96,7 @@ a{
   
 .nav__item {
     margin-bottom: var(--mb-4);
+    font-size: 15px;
 }
   
 .nav__link {
@@ -119,8 +120,8 @@ a{
   
 .nav__logo {
     color: var(--first-color);
-    font-size: larger;
-    font-family: var(--big-font-size);
+    font-size: 33px;
+    padding-right: 180px;
 }
 
 .nav__toggle {
@@ -139,23 +140,89 @@ a{
     top: 2rem;
     background-color: var(--first-color);
 }
-
-
-/* ===== MEDIA QUERIES=====*/
+/*===== HOME =====*/
+.home {
+    position: relative;
+    row-gap: 5rem;
+    padding: 4rem 0 5rem;
+}
   
+.home__data {
+    align-self: center;
+}
+  
+.home__title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-5);
+}
+.home__title-color {
+    color: var(--first-color);
+}
+.home__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 360px;
+}
+/*BUTTONS*/
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+    transition: .3s;
+}
+.button_aboutus {
+    padding: 20px;
+    position: absolute;
+    border:none; 
+    border-radius:10px; 
+    font-family: 'DM Sans', sans-serif;;
+    font-size: 17px;
+    min-height:10px; 
+    min-width: 85px;
+}
+  
+.button:hover {
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
+/* ===== MEDIA QUERIES=====*/
+
+@media screen and (max-width: 320px) {
+    .home {
+      row-gap: 2rem;
+    }
+    .home__img {
+      width: 200px;
+    }
+}
+
+@media screen and (min-width: 567px){
+
+    .home{
+        padding: 4rem 0 2rem;
+    }
+    .home__img{
+        width: 300px;
+        bottom: 25%;
+    }
+}
+
 @media screen and (min-width: 768px){
     body {
       margin: 0;
     }
     .nav {
-      height: calc(var(--header-height) + 1.5rem);
+      height: calc(var(--header-height) + 1rem);
     }
     .nav__list {
       display: flex;
       padding-top: 0;
     }
     .nav__item {
-      margin-left: var(--mb-6);
+      margin-left: 30px;
       margin-bottom: 0;
     }
     .nav__toggle {
@@ -164,11 +231,24 @@ a{
     .nav__link {
       color: var(--second-color);
     }
+    .home {
+        padding: 8rem 0 2rem;
+    }
+    .home__img {
+        width: 400px;
+        top: 15%;
+    }
 }
   
 @media screen and (min-width: 992px){
     .bd-grid {
       margin-left: auto;
       margin-right: auto;
+    }
+    .home {
+        padding: 10rem 0 2rem;
+    }
+    .home__img {
+        width: 400px;
     }
 }
