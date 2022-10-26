@@ -58,8 +58,10 @@ a{
 .bd-grid{
     max-width: 1024px;
     display: grid;
-    margin-left: var(--mb-2);
-    margin-right: var(--mb-2);
+    padding-left: var(--mb-2);
+    padding-right: var(--mb-2);
+    /* margin-left: var(--mb-2);
+    margin-right: var(--mb-2); */
 }
 
 .l-header{
@@ -67,9 +69,16 @@ a{
     position: fixed;
     top: 0;
     left: 0;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     z-index: var(--z-fixed);
-    background-color: #fff;
+     background-color: rgba(255, 255, 255, 0.692); 
     box-shadow: 0 1px 4px rgba(127, 131, 135, 0.15);
+}
+
+.l-main {
+    padding-left: var(--mb-4);
+    padding-right: var(--mb-4);
 }
 
 /*===== NAV =====*/
@@ -79,6 +88,7 @@ a{
     justify-content: space-between;
     align-items: center;
     font-weight: var(--font-semi);
+    backdrop-filter: blur(5px);
 }
   
 @media screen and (max-width: 767px) {
