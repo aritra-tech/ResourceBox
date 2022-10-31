@@ -203,7 +203,7 @@ img {
     font-family: 'DM Sans', sans-serif;;
     font-size: 17px;
     min-height:10px; 
-    min-width: 85px;
+    min-width: auto;
 }
 
 .button:hover {
@@ -236,7 +236,55 @@ img {
     border-radius: .5rem;
 }
 
-/* ===== MEDIA QUERIES=====*/
+/* ======= RESOURCES =======*/
+.resources {
+    padding: 7rem 2rem 0rem;
+}
+.media-scroller {
+    display: grid;
+    grid-auto-flow: column;
+    gap: var(--big-font-size);
+    grid-auto-columns: 30%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+.category {
+    /* display: inline-block; */
+    width: 280px;
+    height: auto;
+    margin: 40px 0px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 6px 12px 24px -5px #BCBCBC;
+}
+.categoryimg {
+    background: #BCBCBC;
+    width: auto;
+    height: 122px;
+    border-radius: 12px 12px 0px 0px;
+} 
+.categorytext {  
+    /* width: auto;  If we do not mention then also it's okay */
+    /* height: auto; If we do not mention then also it's okay */
+    text-align: center;
+    padding: 0px 25px;
+}
+.categorytext > h3 {
+    margin: 14px;
+    font-size: 24px;
+}
+.categorytext > p {
+    font-size: 14px;
+    /* padding: 5px; */
+}
+.categorytext > button {
+    border-radius: 0px;
+    margin: 24px auto;
+    width: auto;
+    background-color: #000;
+}
+
+/* ===== MEDIA QUERIES =====*/
 
 @media screen and (max-width: 320px) {
     .home {
