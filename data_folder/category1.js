@@ -1,22 +1,32 @@
 // Data
 export const developmentdata= [{
     imglink: "",
-    imgalt: "Web dev img",
-    title: "Web Development",
-    description: "If you want to become a web developer, you can follow up this course and can become a full stack developer, or lorem ipsum if you want to be a front end developer"
+    imgalt: "behance img",
+    title: "Behance",
+    description: "Behance is the world's largest creative network for showcasing and discovering creative work."
 }, {
     imglink: "",
-    imgalt: "Android dev img",
-    title: "Android Development",
-    description: "If you want to become a android developer, you can follow up this course and can become a android developer, or lorem ipsum developer"
+    imgalt: "dribble img",
+    title: "Dribble",
+    description: "Millions of designers and agencies around the world showcase their portfolio work on Dribbble - the home to the world's best design and creative professionals."
 }, {
     imglink: "",
-    imgalt: "Java dev img",
-    title: "Java Development",
-    description: "If you want to become a Java developer, you can follow up this course and can become a Java developer, or lorem ipsum developer"
+    imgalt: "land-book img",
+    title: "Land-book",
+    description: "We collect awesome websites to help creatives find inspiration & motivation to do rad stuff."
 }, {
     imglink: "",
-    imgalt: "ML img",
-    title: "Machine Learning",
-    description: "If you want to become a Data Scientist, you can follow up this course and can become a data scientist, or lorem ipsum developer"
+    imgalt: "muzil img",
+    title: "Search by Muzli",
+    description: "Search, discover, test and create beautiful color palettes for your projects."
+}, {
+    imglink: "",
+    imgalt: "killer img",
+    title: "Killer Portfolio",
+    description: "A showcase of beautifully designed, super-effective portfolios from the design, development and video worlds."
+}, {
+    imglink: "",
+    imgalt: "landinglove img",
+    title: "Landing Love",
+    description: "Showcase of the best Animation Websites."
 }];
