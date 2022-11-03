@@ -281,7 +281,7 @@ img {
     /* padding: 5px; */
 }
 .categorytext > button {
-    border-radius: 0px;
+    border-radius: 6px;
     margin: 24px auto;
     width: auto;
     border-radius: 8px;

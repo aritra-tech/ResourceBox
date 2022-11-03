@@ -3,7 +3,7 @@ import {developmentdata} from '../data_folder/category1.js';
 const categorybox = document.getElementById('category-name');
 const container = document.getElementById('category1');
 
-categorybox.innerHTML="Adnan Resource";
+categorybox.innerHTML="Development Resource";
 developmentdata.forEach(function(result) {
     const content =
     `
