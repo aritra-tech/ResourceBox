@@ -1,22 +1,22 @@
 // Data
 export const developmentdata= [{
-    imglink: "",
+    imglink: "/images/Behance.png",
     imgalt: "Web dev img",
     title: "Web Development",
-    description: "If you want to become a web developer, you can follow up this course and can become a full stack developer, or lorem ipsum if you want to be a front end developer"
+    description: "World's largest creative network for showcasing and discovering creative work."
 }, {
     imglink: "",
     imgalt: "Android dev img",
     title: "Android Development",
-    description: "If you want to become a android developer, you can follow up this course and can become a android developer, or lorem ipsum developer"
+    description: "If you want to become a android developer, you can follow up this dfdfsdfsfsfs."
 }, {
     imglink: "",
     imgalt: "Java dev img",
     title: "Java Development",
-    description: "If you want to become a Java developer, you can follow up this course and can become a Java developer, or lorem ipsum developer"
+    description: "If you want to become a Java developer, you can follow up this course and can become."
 }, {
     imglink: "",
     imgalt: "ML img",
     title: "Machine Learning",
-    description: "If you want to become a Data Scientist, you can follow up this course and can become a data scientist, or lorem ipsum developer"
+    description: "If you want to become a Data Scientist, you can follow up this course and can become a."
 }];

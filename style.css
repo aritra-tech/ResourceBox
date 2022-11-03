@@ -237,6 +237,9 @@ img {
 }
 
 /* ======= RESOURCES =======*/
+#category-box {
+    width: 68rem;
+}
 .resources {
     padding: 7rem 2rem 0rem;
 }
@@ -244,15 +247,15 @@ img {
     display: grid;
     grid-auto-flow: column;
     gap: var(--big-font-size);
-    grid-auto-columns: 30%;
+    grid-auto-columns: 25%;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
 }
 .category {
     /* display: inline-block; */
-    width: 280px;
-    height: auto;
-    margin: 40px 0px;
+    width: 16rem;
+    height: 22rem;
+    margin: 40px 20px;
     border-radius: 12px;
     background: white;
     box-shadow: 6px 12px 24px -5px #BCBCBC;
@@ -281,6 +284,7 @@ img {
     border-radius: 0px;
     margin: 24px auto;
     width: auto;
+    border-radius: 8px;
     background-color: #000;
 }
 
