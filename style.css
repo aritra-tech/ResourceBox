@@ -176,8 +176,15 @@ img {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-5);
 }
+.home__subtitle{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
 .home__title-color {
     color: var(--first-color);
+    font-weight: 500;
 }
 .home__img {
     position: absolute;
