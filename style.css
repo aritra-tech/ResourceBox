@@ -6,7 +6,7 @@
     --header-height: 3rem;
     --font-semi: 600;
     --hue-color: 205;
-    --first-color: hsl(var(--hue-color), 100%, 45%);
+    --first-color: #4A6F98;
     /*===== Fuente y tipografia =====*/
     --body-font: 'DM Sans', sans-serif;
     --big-font-size: 2rem;
@@ -175,12 +175,14 @@ img {
 .home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-5);
+    color: var(--first-color);
 }
 .home__subtitle{
     padding-bottom: 10px;
     margin-bottom: 10px;
     font-style: normal;
     font-weight: 400;
+    color: #7196BE;
 }
 .home__title-color {
     color: var(--first-color);
@@ -206,8 +208,8 @@ img {
     padding: 20px;
     position: absolute;
     border:none; 
-    border-radius:10px; 
-    font-family: 'DM Sans', sans-serif;;
+    border-radius: 14px; 
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     min-height:10px; 
     min-width: auto;
